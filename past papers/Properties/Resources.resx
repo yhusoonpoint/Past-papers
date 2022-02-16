@@ -1,0 +1,913 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="c1ja05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Questionpaper-UnitC1(6663)-January2005.doc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c1ja06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Questionpaper-UnitC1(6663)-January2006.doc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c1ja08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Questionpaper-UnitC1(6663)-January2008.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c1ja09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Questionpaper-UnitC1(6663)-January2009.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c1ja10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Questionpaper-UnitC1(6663)-January2010.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c1ja11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Questionpaper-UnitC1(6663)-January2011.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c1ja12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Questionpaper-UnitC1(6663)-January2012.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c1ja13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Questionpaper-UnitC1(6663)-January2013.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c1ju05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Questionpaper-UnitC1(6663)-June2005.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c1ju07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Questionpaper-UnitC1(6663)-June2007.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c1ju08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Questionpaper-UnitC1(6663)-June2008.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c1ju09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Questionpaper-UnitC1(6663)-June2009.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c1ju10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Questionpaper-UnitC1(6663)-June2010.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c1ju11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Questionpaper-UnitC1(6663)-June2011.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c1ju12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Questionpaper-UnitC1(6663)-June2012.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c1ju13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Questionpaper-UnitC1(6663)-June2013.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c2ja05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Questionpaper-UnitC2(6664)-January2005.doc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c2ja06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Questionpaper-UnitC2(6664)-January2006.doc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c2ja08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Questionpaper-UnitC2(6664)-January2008.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c2ja09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Questionpaper-UnitC2(6664)-January2009.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c2ja10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Questionpaper-UnitC2(6664)-January2010.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c2ja11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Questionpaper-UnitC2(6664)-January2011.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c2ja12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Questionpaper-UnitC2(6664)-January2012.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c2ja13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Questionpaper-UnitC2(6664)-January2013.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c2ju05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Questionpaper-UnitC2(6664)-June2005.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c2ju06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Questionpaper-UnitC2(6664)-June2006.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c2ju07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Questionpaper-UnitC2(6664)-June2007.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c2ju08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Questionpaper-UnitC2(6664)-June2008.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c2ju09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Questionpaper-UnitC2(6664)-June2009.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c2ju10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Questionpaper-UnitC2(6664)-June2010.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c2ju11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Questionpaper-UnitC2(6664)-June2011.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c2ju12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Questionpaper-UnitC2(6664)-June2012.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c2ju13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Questionpaper-UnitC2(6664)-June2013.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c3ja06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c3ja06.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c3ja08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c3ja08.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c3ja09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c3ja09.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c3ja10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c3ja10.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c3ja11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c3ja11.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c3ja12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c3ja12.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c3ja13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c3ja13.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c3ju05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c3ju05.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c3ju06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c3ju06.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c3ju07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c3ju07.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c3ju08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c3ju08.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c3ju09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c3ju09.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c3ju10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c3ju10.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c3ju11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c3ju11.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c3ju12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c3ju12.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c3ju13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c3ju13.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c4ja06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c4ja06.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c4ja08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c4ja08.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c4ja09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c4ja09.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c4ja10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c4ja10.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c4ja11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c4ja11.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c4ja12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c4ja12.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c4ja13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c4ja13.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c4ju05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c4ju05.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c4ju06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c4ju06.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c4ju07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c4ju07.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c4ju08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c4ju08.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c4ju09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c4ju09.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c4ju10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c4ju10.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c4ju11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c4ju11.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c4ju12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c4ju12.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="c4ju13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c4ju13.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cfja09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cfja09.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cfja10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cfja10.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cfja11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cfja11.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cfja12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cfja12.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cfja13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cfja13.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cfju09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cfju09.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cfju10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cfju10.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cfju11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cfju11.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cfju12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cfju12.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cfju13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cfju13.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="equationsolver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\equation solver.exe;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ewpja10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ewpja10.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ewpja11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ewpja11.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ewpja12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ewpja12.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ewpja13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ewpja13.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ewpju09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ewpju09.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ewpju10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ewpju10.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ewpju11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ewpju11.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ewpju12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ewpju12.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ewpju13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ewpju13.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc1ja05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Markscheme-UnitC1(6663)-January2005.doc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc1ja06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Markscheme-UnitC1(6663)-January2006.doc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc1ja08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Markscheme-UnitC1(6663)-January2008.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc1ja09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Markscheme-UnitC1(6663)-January2009.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc1ja10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Markscheme-UnitC1(6663)-January2010.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc1ja11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Markscheme-UnitC1(6663)-January2011.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc1ja12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Markscheme-UnitC1(6663)-January2012.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc1ja13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Markscheme-UnitC1(6663)-January2013.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc1ju05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Markscheme-UnitC1(6663)-June2005.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc1ju07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Markscheme-UnitC1(6663)-June2007.doc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc1ju08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Markscheme-UnitC1(6663)-June2008.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc1ju09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Markscheme-Multipleunits-June2009.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc1ju10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Markscheme-UnitC1(6663)-June2010.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc1ju11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Markscheme-UnitC1(6663)-June2011.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc1ju12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Markscheme-UnitC1(6663)-June2012.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc1ju13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Markscheme-UnitC1(6663)-June2013.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc2ja05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Markscheme-UnitC2(6664)-January2005.doc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc2ja06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Markscheme-UnitC2(6664)-January2006.doc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc2ja08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Markscheme-UnitC2(6664)-January2008.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc2ja09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Markscheme-UnitC2(6664)-January2009.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc2ja10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Markscheme-UnitC2(6664)-January2010.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc2ja11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Markscheme-UnitC2(6664)-January2011.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc2ja12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Markscheme-UnitC2(6664)-January2012.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc2ja13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Markscheme-UnitC2(6664)-January2013.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc2ju05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Markscheme-UnitC2(6664)-June2005.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc2ju06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Markscheme-UnitC2(6664)-June2006.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc2ju07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Markscheme-UnitC2(6664)-June2007.doc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc2ju08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Markscheme-UnitC2(6664)-June2008.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc2ju10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Markscheme-UnitC2(6664)-June2010.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc2ju11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Markscheme-UnitC2(6664)-June2011.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc2ju12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Markscheme-UnitC2(6664)-June2012.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc2ju13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Markscheme-UnitC2(6664)-June2013.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc3ja06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc3ja06.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc3ja08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc3ja08.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc3ja09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc3ja09.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc3ja10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc3ja10.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc3ja11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc3ja11.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc3ja12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc3ja12.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc3ja13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc3ja13.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc3ju05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc3ju05.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc3ju06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc3ju06.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc3ju07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc3ju07.doc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc3ju08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc3ju08.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc3ju09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc3ju09.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc3ju10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc3ju10.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc3ju11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc3ju11.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc3ju12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc3ju12.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc3ju13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc3ju13.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc4ja06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc4ja06.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc4ja08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc4ja08.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc4ja09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc4ja09.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc4ja10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc4ja10.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc4ja11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc4ja11.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc4ja12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc4ja12.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc4ja13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc4ja13.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc4ju05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc4ju05.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc4ju06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc4ju06.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc4ju07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc4ju07.doc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc4ju08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc4ju08.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc4ju09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc4ju09.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc4ju10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc4ju10.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc4ju11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc4ju11.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc4ju12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc4ju12.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mc4ju13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mc4ju13.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mcfja09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mcfja09.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mcfja10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mcfja10.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mcfja11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mcfja11.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mcfja12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mcfja12.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mcfja13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mcfja13.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mcfju09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mcfju09.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mcfju10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mcfju10.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mcfju11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mcfju11.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mcfju12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mcfju12.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mcfju13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mcfju13.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mechanicsja09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mechanicsja09.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mechanicsja10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mechanicsja10.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mechanicsja11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mechanicsja11.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mechanicsja12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mechanicsja12.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mechanicsja13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mechanicsja13.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mechanicsju09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mechanicsju09.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mechanicsju10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mechanicsju10.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mechanicsju11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mechanicsju11.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mechanicsju12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mechanicsju12.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mechanicsju13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mechanicsju13.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mewpja10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mewpja10.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mewpja11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mewpja11.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mewpja12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mewpja12.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mewpja13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mewpja13.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mewpju09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mewpju09.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mewpju10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mewpju10.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mewpju11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mewpju11.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mewpju12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mewpju12.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mewpju13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mewpju13.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mmechanicsja09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mmechanicsja09.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mmechanicsja10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mmechanicsja10.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mmechanicsja11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mmechanicsja11.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mmechanicsja12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mmechanicsja12.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mmechanicsja13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mmechanicsja13.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mmechanicsju09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mmechanicsju09.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mmechanicsju10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mmechanicsju10.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mmechanicsju11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mmechanicsju11.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mmechanicsju12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mmechanicsju12.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mmechanicsju13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mmechanicsju13.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mptalmja09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mptalmja09.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mptalmja10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mptalmja10.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mptalmja11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mptalmja11.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mptalmja12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mptalmja12.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mptalmja13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mptalmja13.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mptalmju09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mptalmju09.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mptalmju10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mptalmju10.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mptalmju11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mptalmju11.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mptalmju12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mptalmju12.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mptalmju13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mptalmju13.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ms1ja03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ms1ja03.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ms1ja05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ms1ja05.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ms1ja06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ms1ja06.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ms1ja08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ms1ja08.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ms1ja09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ms1ja09.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ms1ja10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ms1ja10.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ms1ja11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ms1ja11.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ms1ja12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ms1ja12.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ms1ja13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ms1ja13.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ms1ju05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ms1ju05.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ms1ju06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ms1ju06.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ms1ju07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ms1ju07.doc;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ms1ju08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ms1ju08.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ms1ju09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ms1ju09.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ms1ju10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ms1ju10.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ms1ju11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ms1ju11.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ms1ju12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ms1ju12.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ms1ju13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ms1ju13.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mspju09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mspju09.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mspju10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mspju10.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mspju11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mspju11.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mspju12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mspju12.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mspju13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mspju13.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mssju09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mssju09.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mssju10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mssju10.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mssju11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mssju11.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mssju12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mssju12.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mssju13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mssju13.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ptamlja09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ptamlja09.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ptamlja10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ptamlja10.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ptamlja11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ptamlja11.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ptamlja12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ptamlja12.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ptamlja13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ptamlja13.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ptamlju09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ptamlju09.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ptamlju10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ptamlju10.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ptamlju11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ptamlju11.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ptamlju12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ptamlju12.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ptamlju13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ptamlju13.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s1ja03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\s1ja03.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s1ja05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\s1ja05.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s1ja06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\s1ja06.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s1ja08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\s1ja08.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s1ja09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\s1ja09.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s1ja10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\s1ja10.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s1ja11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\s1ja11.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s1ja12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\s1ja12.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s1ja13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\s1ja13.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s1ju05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\s1ju05.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s1ju06" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\s1ju06.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s1ju07" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\s1ju07.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s1ju08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\s1ju08.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s1ju09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\s1ju09.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s1ju10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\s1ju10.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s1ju11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\s1ju11.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s1ju12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\s1ju12.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="s1ju13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\s1ju13.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="spju09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spju09.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="spju10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spju10.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="spju11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spju11.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="spju12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spju12.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="spju13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spju13.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ssju09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssju09.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ssju10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssju10.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ssju11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssju11.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ssju12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssju12.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ssju13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssju13.pdf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
